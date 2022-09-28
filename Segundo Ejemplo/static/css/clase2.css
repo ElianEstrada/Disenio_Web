@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    background-color: red;
+    height: 10%;
+}
+
+main {
+    background-color: blue;
+    height: 60%;
+}
+
+#noticia1 {
+    background-color: blueviolet;
+}
+
+#noticia2 {
+    background-color: brown;
+}
+
+section {
+    background-color: aqua;
+    height: 50%;
+    width: 50%;
+}
+
+
+article {
+    background-color: cadetblue;
+    height: 70%;
+    width: 50%;
+}
+
+footer {
+    background-color: green;
+    height: 30%;
+}
+

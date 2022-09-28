@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+
+.html_style {
+    border: blue;
+}
+
+.css_style{
+    border: green;
+}
+
+.html_style > td {
+    color: red;
+}

@@ -1,0 +1,7 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('barbe.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

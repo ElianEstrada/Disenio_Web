@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas y Formularios</title>
+    <link rel="stylesheet" href="static/css/index.css" />
+  </head>
+  <body>
+    <form action="clase2.html" method="post" target="_blank">
+      <label>Nombre:</label>
+      <input
+        type="text"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        value=""
+      />
+      <label>contraseña</label>
+      <input type="password" name="pass">
+      <label>Edad</label>
+      <input type="number" step="1" max="100" min="1" name="edad"/>
+      <label>Descripción</label>
+      <textarea name="descripcion" cols="50" rows="1"></textarea>
+      <label>Genero:</label>
+      <input type="radio" id="mas" value="M" name="gender" />
+      <label for="mas">M</label>
+      <input type="radio" id="fem" value="F" name="gender" />
+      <label for="fem">F</label>
+      <button>Enviar</button>
+    </form>
+
+    <a href="https://www.youtube.com" target="_blank">YouTube</a>
+
+    <table border="1">
+      <caption>
+        Personas en tablas
+      </caption>
+      <thead>
+        <th>Tema</th>
+        <th>Subtema</th>
+        <th>No.Clases</th>
+      </thead>
+      <tbody>
+        <tr class="html_style">
+          <td rowspan="4">HTML</td>
+          <td>Estrctura básica</td>
+          <td>1</td>
+        </tr>
+        <tr class="html_style">
+          <td>Texto</td>
+          <td>2</td>
+        </tr>
+        <tr class="html_style">
+          <td>Tablas</td>
+          <td>1</td>
+        </tr>
+        <tr class="html_style">
+          <td>Formularios</td>
+          <td>2</td>
+        </tr>
+        <tr class="css_style">
+          <td rowspan="5">CSS</td>
+          <td>Selectores</td>
+          <td>2</td>
+        </tr>
+        <tr class="css_style">
+          <td>SubSelectores</td>
+          <td>3</td>
+        </tr>
+        <tr class="css_style">
+          <td>enlazar clases</td>
+          <td>4</td>
+        </tr>
+        <tr class="css_style">
+          <td>Enlazar ids</td>
+          <td>4</td>
+        </tr>
+        <tr class="css_style">
+          <td>Funciones</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>JAVASCRIPT</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
